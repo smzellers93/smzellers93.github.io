@@ -40,7 +40,6 @@ p.errorText {
 div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
-  /* from nsb-maroon to nsb-dark */
   /* https: //www.joshwcomeau.com/gradient-generator */
   background-image: url(logo.webp), linear-gradient(45deg,
   hsl(209deg 55% 19%) 0%,
@@ -52,8 +51,7 @@ body#bookingpage.testing p {
   hsl(5deg 26% 70%) 67%,
   hsl(16deg 37% 77%) 78%,
   hsl(27deg 52% 84%) 89%,
-  hsl(38deg 82% 91%) 100%
-);
+  hsl(38deg 82% 91%) 100%);
   background-repeat: no-repeat, no-repeat;
   background-position: 24px 12px, left;
   background-size: 144px, auto;
