@@ -41,7 +41,7 @@ div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
   /* https: //www.joshwcomeau.com/gradient-generator */
-  background-image: url(logo.webp), linear-gradient(90deg,
+  background-image: url(logoy.webp), linear-gradient(90deg,
   hsl(39deg 86% 92%) 0%,
   hsl(58deg 28% 81%) 19%,
   hsl(88deg 18% 73%) 27%,
