@@ -41,16 +41,21 @@ div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
   /* https: //www.joshwcomeau.com/gradient-generator */
-  background-image: url(logo.webp), linear-gradient(45deg,
+  background-image: url(logo.webp), linear-gradient(
+  25deg,
   hsl(209deg 55% 19%) 0%,
-  hsl(231deg 22% 30%) 11%,
-  hsl(266deg 15% 37%) 22%,
-  hsl(305deg 11% 43%) 33%,
-  hsl(332deg 14% 52%) 44%,
-  hsl(350deg 19% 62%) 56%,
-  hsl(5deg 26% 70%) 67%,
-  hsl(16deg 37% 77%) 78%,
-  hsl(27deg 52% 84%) 89%,
+  hsl(223deg 29% 27%) 17%,
+  hsl(244deg 17% 33%) 25%,
+  hsl(269deg 14% 37%) 31%,
+  hsl(295deg 12% 41%) 37%,
+  hsl(320deg 12% 47%) 42%,
+  hsl(335deg 15% 54%) 47%,
+  hsl(347deg 19% 60%) 53%,
+  hsl(358deg 22% 66%) 58%,
+  hsl(8deg 29% 71%) 63%,
+  hsl(16deg 36% 76%) 69%,
+  hsl(23deg 46% 81%) 75%,
+  hsl(30deg 58% 86%) 83%,
   hsl(38deg 82% 91%) 100%);
   background-repeat: no-repeat, no-repeat;
   background-position: 24px 12px, left;
