@@ -1,6 +1,6 @@
 html {
   font-size: 1.125rem;
-  line-height: 1.3em;
+  line-height: 1.6em;
   background: none;
   font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;
   color: #3c2e56;
@@ -9,6 +9,7 @@ html {
 @media (min-width: 600px) {
   html {
     font-size: 1.25rem;
+    line-height: 1.6em;
   }
   /* div#BodyTitle,
   body#bookingpage.testing p {
@@ -74,15 +75,17 @@ body#bookingpage.testing p {
 
 body#bookingpage.testing p {
   height: 210px;
+  line-height: 1.6em;
 }
 
 body.confirmation .itemdescriptioncell {
   font-weight: bold;
+  line-height: 1.6em;
 }
 
 body.confirmation #Introduction strong {
   font-size: 1.5rem;
-  line-height: 1.3em;
+  line-height: 1.6em;
 }
 
 .sectionWrapper {
@@ -96,7 +99,7 @@ body.confirmation #Introduction strong {
   color: #3c2e56;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  line-height: 1em;
+  line-height: 1.3em;
   /* border-bottom: 1px solid #3c2e56;; */
   /* padding-bottom: 5px; */
 }
@@ -329,6 +332,7 @@ div[id*='indented'] .inputcell {
     background-position: center 12px, left;
     height: 210px;
     font-size: 1.25rem;
+    line-height: 1.6em;
     padding: 9rem 1rem 1rem 1rem;
     text-align: center;
   }
@@ -350,7 +354,7 @@ div[id*='indented'] .inputcell {
   .inputcell {
     position: relative;
     right: unset;
-    line-height: 1.0rem;
+    line-height: 1.5rem;
   }
 
   #row_VolunteerLink {
