@@ -1,0 +1,363 @@
+html {
+  font-size: 1.125rem;
+  line-height: 1.6em;
+  background: none;
+  font-family: Avenir, Avenir Next LT Pro, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;
+  color: #3c2e56;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 1.25rem;
+    line-height: 1.6em;
+  }
+  /* div#BodyTitle,
+  body#bookingpage.testing p {
+  } */
+}
+
+body {
+  margin: 0;
+}
+
+.errorText {
+  color: red;
+}
+
+p.errorText {
+  padding: 0 1em 1.5em 1em;
+}
+
+#processingForm {
+  padding: 0 1em 1.5em 1em;
+}
+
+#wrapperdiv > *:not(#BodyTitle) {
+  max-width: calc(min(51.25rem, 100vw));
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+div#BodyTitle,
+body#bookingpage.testing p {
+  box-sizing: border-box;
+  /* https://www.joshwcomeau.com/gradient-generator?colors=fcefd7|17344d&angle=90&colorMode=hcl&precision=10&easingCurve=1.05|0.8924097521551724|0.6853448275862069|0.1251683728448276 */
+  linear-gradient( 90deg,
+  hsl(39deg 86% 92%) 13%,
+  hsl(48deg 43% 85%) 42%,
+  hsl(61deg 25% 79%) 53%,
+  hsl(78deg 21% 75%) 60%,
+  hsl(96deg 17% 71%) 65%,
+  hsl(119deg 13% 67%) 69%,
+  hsl(140deg 14% 61%) 72%,
+  hsl(154deg 15% 55%) 75%,
+  hsl(164deg 16% 50%) 77%,
+  hsl(173deg 19% 44%) 79%,
+  hsl(180deg 24% 39%) 80%,
+  hsl(186deg 30% 35%) 81%,
+  hsl(191deg 37% 32%) 83%,
+  hsl(195deg 44% 28%) 84%,
+  hsl(199deg 50% 25%) 86%,
+  hsl(203deg 53% 22%) 88%,
+  hsl(208deg 54% 20%) 96%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 24px 12px, left;
+  background-size: 144px, auto;
+  height: 170px;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: black;
+  padding: 1rem 1.25rem 1rem 11rem;
+  text-align: right;
+  vertical-align: unset;
+}
+
+body#bookingpage.testing p {
+  height: 210px;
+  line-height: 1.6em;
+}
+
+body.confirmation .itemdescriptioncell {
+  font-weight: bold;
+  line-height: 1.6em;
+}
+
+body.confirmation #Introduction strong {
+  font-size: 1.5rem;
+  line-height: 1.6em;
+}
+
+.sectionWrapper {
+  float: left;
+  position: inherit;
+  padding: 0 0rem 1.5rem 0rem;
+}
+
+.sectionHeader {
+  font-size: 2rem;
+  color: #3c2e56;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3em;
+  /* border-bottom: 1px solid #3c2e56;; */
+  /* padding-bottom: 5px; */
+}
+
+p,
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 0;
+}
+
+a {
+  color: #3c2e56;
+  text-decoration-line: underline;
+  text-decoration-color: #d8d5dd;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition-property: text-decoration-color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+  text-decoration-color: #3c2e56;
+}
+
+.fieldwrapper {
+  min-height: 2rem;
+  position: relative;
+  padding-right: 250px;
+}
+
+.itemdescriptioncell,
+.inputcell {
+  display: inline-block;
+}
+
+.inputcell {
+  position: absolute;
+  right: 0;
+  /* line-height: 1.0rem; */
+}
+
+input,
+textarea,
+select {
+  min-width: 15em;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 4px;
+  border-color: rgb(166, 166, 166);
+}
+
+select {
+  height: 1.5rem;
+  background-color: white;
+}
+
+#addendum {
+  margin-top: 1rem;
+}
+
+#bookagain {
+  padding: 1rem 0;
+}
+
+#returntobooking {
+  margin-bottom: 2rem;
+}
+
+/* item specific css */
+div[id*=_Address] {
+  height: 3.0rem;
+}
+
+textarea {
+  height: 2.75rem;
+}
+
+input[type=submit],
+input[type=button] {
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+  background: #3c2e56;
+  margin: 1em auto;
+  padding: 0.7rem 1rem;
+  box-sizing: border-box;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border: none;
+
+}
+
+#Introduction {
+  padding: 0 1rem;
+}
+
+#Introduction p {
+  padding: 0 0 1rem;
+}
+
+#form_RegisterForm,
+#layoutTable {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+#Register {
+  margin-bottom: 0;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+  background: #3c2e56;
+}
+
+/* tabbed radioGroups! */
+ul.radioGroup {
+  list-style-type: none;
+  position: relative;
+  min-height: 1.0em;
+  clear: both;
+  margin: 0.10em 0 0.10em 0.10em;
+  font-size: 0.9em;
+  padding-left: 0;
+  border: none;
+}
+
+ul.radioGroup li {
+  display: inline-block;
+}
+
+ul.radioGroup li:first-child label {
+  -webkit-border-top-left-radius: 0.5em;
+  -webkit-border-bottom-left-radius: 0.5em;
+  -moz-border-radius-topleft: 0.5em;
+  -moz-border-radius-bottomleft: 0.5em;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  margin-right: 3px;
+}
+
+ul.radioGroup li:last-child label {
+  -webkit-border-top-right-radius: 0.5em;
+  -webkit-border-bottom-right-radius: 0.5em;
+  -moz-border-radius-topright: 0.5em;
+  -moz-border-radius-bottomright: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+input[type=radio]+label {
+  background: #d8d5dd;
+  padding: 0.2em 1em;
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  cursor: pointer;
+  border: none;
+}
+
+li [type=radio] {
+  display: none !important;
+}
+
+input[type=radio]:checked+label {
+  background: #3c2e56;
+  z-index: 2;
+  color: white;
+}
+
+input[type="checkbox"] {
+  min-width: auto;
+}
+
+.sCostSummary input[type=button]:first-child {
+  background: #cccccc;
+  color: black;
+}
+
+#bookingpage #wrapperdiv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  margin-bottom: 30px;
+}
+
+#bookingpage #wrapperdiv #addendum {
+  padding: 0;
+}
+
+#bookingpage #wrapperdiv #Introduction {
+  padding: 1rem 0 0 0;
+}
+
+#bookingpage #wrapperdiv>div:not(#BodyTitle) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#returntobookingbottom {
+  margin-top: 20px;
+}
+
+/* div.captionCell p:not(:first-child) {
+  line-height: 0.6;
+} */
+
+div[id*='indented'] {
+  margin-left: 23px;
+  margin-top: -.6rem;
+}
+
+div[id*='indented'] .inputcell {
+  position: relative;
+  margin-left: 10px;
+  right: unset;
+}
+
+.informationInput {
+  margin-bottom: 0.5rem
+}
+
+@media (max-width: 600px) {
+  div#BodyTitle,
+  body#bookingpage.testing p {
+    background-position: center 12px, left;
+    height: 210px;
+    font-size: 1.25rem;
+    line-height: 1.6em;
+    padding: 9rem 1rem 1rem 1rem;
+    text-align: center;
+  }
+
+  .sectionHeader {
+    font-size: 1.875rem;
+  }
+
+  .fieldwrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .itemdescriptioncell {
+    margin: .75rem 0 .25rem 0;
+  }
+
+  .inputcell {
+    position: relative;
+    right: unset;
+    line-height: 1.5rem;
+  }
+
+  #row_VolunteerLink {
+    margin-top: 1rem;
+  }
+}
