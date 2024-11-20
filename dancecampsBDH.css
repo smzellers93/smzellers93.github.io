@@ -62,9 +62,9 @@ body#bookingpage.testing p {
     hsl(126deg 2% 90%) 94%,
     hsl(0deg 0% 100%) 100%);
   background-repeat: no-repeat, no-repeat;
-  background-position: 24px 12px, center;
-  background-size: 256px, auto;
-  height: 300px;
+  background-position: center;
+  background-size: 144px, auto;
+  height: 170px;
   width: 100%;
   font-size: 1.5rem;
   font-weight: normal;
