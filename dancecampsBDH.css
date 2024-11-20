@@ -42,24 +42,25 @@ div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
   /* https://www.joshwcomeau.com/gradient-generator?colors=fcefd7|17344d&angle=90&colorMode=hcl&precision=10&easingCurve=1.05|0.8924097521551724|0.6853448275862069|0.1251683728448276 */
-  background-image: url(BDMonday.webp),linear-gradient( 90deg,
-  hsl(39deg 86% 92%) 13%,
-  hsl(48deg 43% 85%) 42%,
-  hsl(61deg 25% 79%) 53%,
-  hsl(78deg 21% 75%) 60%,
-  hsl(96deg 17% 71%) 65%,
-  hsl(119deg 13% 67%) 69%,
-  hsl(140deg 14% 61%) 72%,
-  hsl(154deg 15% 55%) 75%,
-  hsl(164deg 16% 50%) 77%,
-  hsl(173deg 19% 44%) 79%,
-  hsl(180deg 24% 39%) 80%,
-  hsl(186deg 30% 35%) 81%,
-  hsl(191deg 37% 32%) 83%,
-  hsl(195deg 44% 28%) 84%,
-  hsl(199deg 50% 25%) 86%,
-  hsl(203deg 53% 22%) 88%,
-  hsl(208deg 54% 20%) 96%);
+  background-image: url(BDMonday.webp), linear-gradient(
+    130deg,
+    hsl(348deg 100% 30%) 0%,
+    hsl(357deg 71% 31%) 11%,
+    hsl(3deg 62% 29%) 19%,
+    hsl(11deg 58% 25%) 26%,
+    hsl(24deg 49% 20%) 32%,
+    hsl(82deg 35% 15%) 38%,
+    hsl(130deg 48% 14%) 44%,
+    hsl(130deg 48% 14%) 50%,
+    hsl(130deg 48% 14%) 55%,
+    hsl(130deg 48% 14%) 61%,
+    hsl(130deg 48% 14%) 66%,
+    hsl(127deg 11% 29%) 72%,
+    hsl(126deg 3% 52%) 77%,
+    hsl(126deg 3% 67%) 83%,
+    hsl(126deg 2% 80%) 88%,
+    hsl(126deg 2% 90%) 94%,
+    hsl(0deg 0% 100%) 100%);
   background-repeat: no-repeat, no-repeat;
   background-position: 24px 12px, center;
   background-size: 256px, auto;
