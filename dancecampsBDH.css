@@ -42,7 +42,7 @@ div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
   /* https://www.joshwcomeau.com/gradient-generator?colors=fcefd7|17344d&angle=90&colorMode=hcl&precision=10&easingCurve=1.05|0.8924097521551724|0.6853448275862069|0.1251683728448276 */
-  background-image: url(logoy.webp),linear-gradient( 90deg,
+  background-image: url(BDMonday.webp),linear-gradient( 90deg,
   hsl(39deg 86% 92%) 13%,
   hsl(48deg 43% 85%) 42%,
   hsl(61deg 25% 79%) 53%,
