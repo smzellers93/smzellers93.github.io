@@ -42,28 +42,21 @@ div#BodyTitle,
 body#bookingpage.testing p {
   box-sizing: border-box;
   /* https://www.joshwcomeau.com/gradient-generator?colors=fcefd7|17344d&angle=90&colorMode=hcl&precision=10&easingCurve=1.05|0.8924097521551724|0.6853448275862069|0.1251683728448276 */
-  background-image: url(FacebookCoverEvent2025.webp), linear-gradient( 90deg,
-  hsl(39deg 86% 92%) 13%,
-  hsl(48deg 43% 85%) 42%,
-  hsl(61deg 25% 79%) 53%,
-  hsl(78deg 21% 75%) 60%,
-  hsl(96deg 17% 71%) 65%,
-  hsl(119deg 13% 67%) 69%,
-  hsl(140deg 14% 61%) 72%,
-  hsl(154deg 15% 55%) 75%,
-  hsl(164deg 16% 50%) 77%,
-  hsl(173deg 19% 44%) 79%,
-  hsl(180deg 24% 39%) 80%,
-  hsl(186deg 30% 35%) 81%,
-  hsl(191deg 37% 32%) 83%,
-  hsl(195deg 44% 28%) 84%,
-  hsl(199deg 50% 25%) 86%,
-  hsl(203deg 53% 22%) 88%,
-  hsl(208deg 54% 20%) 96%);
+  background-image: url(FacebookCoverEvent2025.webp), linear-gradient(
+    220deg,
+    hsl(351deg 63% 31%) 1%,
+    hsl(351deg 63% 31%) 44%,
+    hsl(351deg 63% 31%) 50%,
+    hsl(351deg 63% 31%) 51%,
+    hsl(351deg 63% 31%) 50%,
+    hsl(351deg 63% 31%) 49%,
+    hsl(351deg 63% 31%) 50%,
+    hsl(351deg 63% 31%) 56%,
+    hsl(351deg 63% 31%) 99%);
   background-repeat: no-repeat, no-repeat;
-  background-position: 24px 12px, left;
-  background-size: 144px, auto;
-  height: 170px;
+  background-position: center;
+  background-size: 400px, auto;
+  height: 400px;
   width: 100%;
   font-size: 1.5rem;
   font-weight: normal;
